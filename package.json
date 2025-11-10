@@ -5,6 +5,7 @@
   "description": "Emergency response website for Olimpia's Biohazard & Restoration - bilingual (EN/ES)",
   "scripts": {
     "build": "next build",
+    "build:vercel": "NEXT_PUBLIC_SKIP_LINT=1 next build",
     "dev": "next dev",
     "format": "prettier --write .",
     "lint": "next lint",
